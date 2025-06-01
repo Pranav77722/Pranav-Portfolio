@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pranav 😎</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            transition: all 0.4s ease-in-out;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            /*  border-style: solid;
+           border-color: white;
+           border-width: 1px; */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.6rem;
+            color: #0dcaf0;
+            transition: transform 0.4s ease, color 0.4s ease;
+        }
+
+        .navbar-brand:hover {
+            transform: scale(1.08);
+            color: #00bcd4;
+        }
+
+        .navbar-nav .nav-link {
+            position: relative;
+            font-size: 1rem;
+            padding: 0.6rem 1rem;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link::before {
+            content: '';
+            position: absolute;
+            bottom: 8px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #0dcaf0;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .navbar-nav .nav-link:hover::before {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #0dcaf0;
+        }
+
+        .navbar-collapse {
+            transition: all 0.4s ease;
+        }
+
+        .navbar-toggler {
+            border: none;
+            transition: transform 0.3s ease;
+        }
+
+        .navbar-toggler:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        .navbar-toggler:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="spinner">
+            <div class="ring outer"></div>
+            <div class="ring inner"></div>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark px-4 py-3 shadow-lg  mt-2 mb-1 fixed-top border-bottom border-light " style="border-radius : 20px">
+        <a class="navbar-brand" href="#section-home">Pranav Khaire</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" style="font-size : 20px" href="#section-home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size : 20px" href="#section-Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size : 20px" href="#section-skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size : 20px" href="#section-email">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="section-home">
+        <div class="bg-home border-top border-light">
+            <div class="container">
+                <div class="row">
+                    <div class="card-home col-12 col-xl-4 ">
+                        <img class="pranav-img d-inline d-lg-none mt-3" src="https://res.cloudinary.com/dcy10jvpr/image/upload/v1748196041/jijqtkwqmiyifwq87czz.jpg">
+                        <img class=" d-none d-xl-block pranav-img-xlg mt-3" src="https://res.cloudinary.com/dcy10jvpr/image/upload/v1748196041/jijqtkwqmiyifwq87czz.jpg">
+                    </div>
+                    <div class="card-home col-12 col-xl-8">
+                        <h1 class="mt-5 heading-home d-inline d-xl-none">
+                            <span style="font-weight : bold ; font-size : 20px ; color :#F4EEE0">
+                                Driven by Curiosity
+                            </span><br>
+                            #....Defined by Code....#
+                        </h1>
+
+                        <h1 class=" heading-home-xl d-none d-xl-block">
+                            <span style="font-weight : bold ; font-size : 60px ; color :#F4EEE0">
+                                Driven by Curiosity
+                            </span><br><br>
+                            #...Defined by Code...#
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-home-about_me mt-3 p-3">
+            <h2 style="color: white ; font-weight : bold ; text-align : left">About me 😎</h2>
+            <hr style="color : white">
+            <p class="about-me-para">
+                I’m an innovation-focused technologist skilled in full-stack development.
+                Proficient in HTML, CSS, Bootstrap, SQL, Python, and mastering the MERN stack as an NXT Wave student.
+                I create scalable projects blending software agility with real-world impact.
+                Driven by passion, I push boundaries to solve complex problems.
+                <span style=" font-style : italic">My goal: design transformative tech that changes lives.</span>
+            </p>
+        </div>
+    </div>
+    <div id="section-Projects">
+        <h2 style="color: white ; font-weight : bold ;text-align : left" class="m-3">Projects 💻</h2>
+        <hr style="color:white">
+        <div class="bg-projects mt-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-4">
+                        <div class="project-card mt-4 text-center">
+                            <img class="project-img " src="https://res.cloudinary.com/dcy10jvpr/image/upload/v1748202540/y23u43rtxpalbglstxle.png">
+                            <h2 class="project-name">Food Munch Website</h2>
+                            <a href="https://foodwalapk.ccbp.tech/">
+                                <button class="btn btn-primary">Visit</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-4 ">
+                        <div class="project-card mt-4 text-center">
+                            <img class="project-img " src="https://res.cloudinary.com/dcy10jvpr/image/upload/v1748204918/zbpbscc3lenmi8f6zbdh.png">
+                            <h2 class="project-name">Text To Speach</h2>
+                            <a href="https://pkaudio.ccbp.tech/">
+                                <button class="btn btn-primary">Visit</button>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-4 ">
+                        <div class="project-card mt-4 text-center">
+                            <img class="project-img " src="https://res.cloudinary.com/dcy10jvpr/image/upload/v1748205188/jv6spvck2mwnw2cm7w5p.png">
+                            <h2 class="project-name">Smart Home Dashboard</h2>
+                            <a href="https://pksmarthome.ccbp.tech/">
+                                <button class="btn btn-primary">Visit</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section-skills">
+        <h2 style="color: white ; margin-top:50px ; margin-left : 24px  ; font-weight : bold ;text-align : left" class="">Skills 👩‍💻</h2>
+        <hr style="color:white">
+        <div class="container">
+            <div class="row">
+                <div class="bg-skills mt-4">
+                    <div class="skill">
+                        <div class="skill-name">HTML</div>
+                        <div class="bar">
+                            <div class="bar-fill" style="--level: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">CSS</div>
+                        <div class="bar">
+                            <div class="bar-fill" style="--level: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Bootstrap</div>
+                        <div class="bar">
+                            <div class="bar-fill" style="--level: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">SQL</div>
+                        <div class="bar">
+                            <div class="bar-fill" style="--level: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Python</div>
+                        <div class="bar">
+                            <div class="bar-fill" style="--level: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Embedded C</div>
+                        <div class="bar">
+                            <div class="bar-fill" style="--level: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section-email">
+
+        <div class="bg-Email border-bottom border-light">
+            <h2 style="text-align : left;color: white ; margin-top:50px ; margin-left : 24px  ; font-weight : bold" class="">Contact 👇</h2>
+            <hr style="color:white">
+            <div class="container">
+                <div class="row">
+                    <form action="https://formspree.io/f/xblyrqee" method="POST" class="dark-form">
+                        <label>
+                            Your email:
+                            <input type="email" name="email" required>
+                        </label>
+                        <label>
+                            Your message:
+                            <textarea name="message" required></textarea>
+                        </label>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section-footer">
+        <div class="bg-footer p-2" style="text-align : left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-3 m-2 ">
+                        <h5 style="color:#FAF0E6; font-family:roboto">Phone</h5>
+                        <svg style="color:#9EC8B9" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg>
+                        <span style="color : #9EC8B9 ; font-size : 15px">7028336358</span>
+                    </div>
+                    <div class="col-12 col-xl-3  m-2">
+                        <h5 style="color:#FAF0E6; font-family:roboto">Email</h5>
+                        <svg style="color:#9EC8B9" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                        </svg>
+                        <span style="color : #9EC8B9 ; font-size : 15px">khairepranav246@gmail.com</span>
+                    </div>
+                    <div class="col-12 col-xl-3 m-2">
+                        <h5 style="color:#FAF0E6; font-family:roboto">Follow me</h5>
+                        <a href="https://www.linkedin.com/in/pranav-khaire-465664248" target="_blank" rel="noopener noreferrer">
+                            <svg style="color:#9EC8B9 ; margin-right :15px" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                            </svg>
+                        </a>
+                        <a href="https://x.com/PranavKhai16307?t=kmdZ4ajCLNJN8gk6U1gfTA&s=09" target="_blank" rel="noopener noreferrer">
+                            <svg style="color:#9EC8B9" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                    <div class="col-12 col-xl-2  m-2">
+                        <p style=" color:#FAF0E6; font-family:roboto">
+                            © 2025 Pranav Khaire. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener("load", () => {
+            const preloader = document.getElementById("preloader");
+            setTimeout(() => {
+                preloader.style.opacity = "0";
+                setTimeout(() => {
+                    preloader.style.display = "none";
+                }, 1000);
+            }, 500);
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
